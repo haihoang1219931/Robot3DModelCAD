@@ -74,8 +74,8 @@ void loop()
 //===============================================================================================================
 void Forward_Reverse (bool dir)
 {
-    if(dir)
-    {
+  if(dir)
+  {
   //1
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
@@ -105,7 +105,7 @@ void Forward_Reverse (bool dir)
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
- delayMicroseconds(MotorSpeed);
+  delayMicroseconds(MotorSpeed);
   //6
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
